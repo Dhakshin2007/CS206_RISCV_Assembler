@@ -18,7 +18,24 @@ Project_Web/
 ├── tmp_*_output.txt
 └── readme.md
 ```
+---
 
+## 🌐 Live Deployment
+
+The web version of this RISC-V Assembler is hosted on Render:
+
+🔗 **Live Link:** [https://cs206-riscv-assembler.onrender.com/](https://cs206-riscv-assembler.onrender.com/)
+
+---
+
+## ⚠️ Caution
+
+Please note that **only a few assembler functions are currently implemented** in the web version.  
+The live link above **does not yet produce functional output** — it is meant to **demonstrate how an assembler can be deployed and run online** using Node.js, C++, and Render.
+
+If you wish to test actual instruction-to-machine-code conversion, please use the **offline version & Web Veriosn** (`Project_Main`), which compiles and runs locally on your system.
+
+---
 ---
 
 ## 🧰 Tech Stack
