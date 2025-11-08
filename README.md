@@ -4,6 +4,8 @@ This is the **web-based interface** for the RISC-V Assembler.
 It allows users to assemble RISC-V code through a simple local web interface.
 
 ---
+## We have developed the frontend for only upto some extent such that it won't support all instructions that are required ,If you want to evaluate you can run the  Assembler_Required_Format.cpp file for evaluating the format
+
 
 ## 📂 Project Structure
 
@@ -26,6 +28,7 @@ Project_Web/
 - **Backend / Runtime:** C++, Node.js  
 
 ---
+
 
 ## ⚙️ How to Run (Web Version)
 
@@ -55,6 +58,7 @@ Project_Web/
 ## 📘 Note
 The `assembler_runtime.exe` is automatically created after compiling.  
 Temporary input and output files are stored with names like:
+
 ```
 tmp_<timestamp>_input.s
 tmp_<timestamp>_output.txt
