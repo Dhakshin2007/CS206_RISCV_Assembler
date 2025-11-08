@@ -1,49 +1,51 @@
-# CS206 Project – RISC-V Assembler
+# RISC-V Assembler (Offline Version)
 
-This repository contains the **RISC-V Assembler project** built for the  
-**CS206 – Foundations of Computer Systems** course at **IIT Ropar**, guided by [T. V. Kalyan](https://sites.google.com/view/kalyantv).
-
-The project includes both **offline** and **web-based** RISC-V assemblers.
+This is the **offline RISC-V Assembler**, developed as part of the **CS206 – Foundations of Computer Systems** course at **IIT Ropar** under **Dr. T. V. Kalyan**.  
+This assembler converts RISC-V assembly instructions into machine code.
 
 ---
 
-## 📂 Repository Structure
+## 📂 Project Structure
 
 ```
-CS206_Project/
-├── Project_Main/     # Offline RISC-V Assembler
-├── Project_Web/      # Web-based RISC-V Assembler
-```
-
----
-
-## 🚀 Quick Start
-
-### For Offline Use:
-```bash
-cd Project_Main
-g++ assembler.cpp -o assembler
-./assembler
-```
-
-### For Web Use:
-```bash
-cd Project_Web
-g++ -std=c++17 -O2 Assembler.cpp main.cpp -o assembler_runtime
-node server.js
+Project_Main/
+├── Assembler.cpp
+├── assembler.exe
+├── input.asm
+├── output.mc
+├── README.md
+└── ReadMe.txt
 ```
 
 ---
 
-## 🧠 Project Overview
-
-This assembler translates **RISC-V assembly instructions** into **machine code**.  
-- Offline mode: Runs directly in a terminal.  
-- Web mode: Runs via Node.js and serves a frontend for easier interaction.
+## 🧰 Tech Stack
+- **C++**
 
 ---
 
-## 👥 Contributors
+## ⚙️ How to Run (Offline)
+
+1. **Download the ZIP file** and extract it.  
+2. Open a terminal inside the extracted folder (`Project_Main`).
+3. **Compile the assembler** using:
+   ```bash
+   g++ assembler.cpp -o assembler
+   ```
+4. Place your RISC-V assembly code in `input.asm`.
+5. **Run the assembler:**
+   ```bash
+   ./assembler
+   ```
+6. Output will be generated in the file:
+   ```
+   output.mc
+   ```
+   This file contains the **machine codes** corresponding to your RISC-V instructions.
+
+---
+
+## 👥 Project Contributors
 - **K Dhakshin** – [Portfolio](https://dhakshin-portfolio.vercel.app/) – Roll No: 2024AIB1009  
 - **J Yeswanth** – [Portfolio](https://yeswanth-portfolio-weld.vercel.app/) – Roll No: 2024AIB1008  
 
