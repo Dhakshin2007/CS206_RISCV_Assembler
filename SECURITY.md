@@ -19,7 +19,7 @@ If you discover a security issue (such as command injection, file exposure, or u
 
 1. **Do not open a public issue** — this protects everyone using the project.
 2. Instead, send a private email to:  
-   **`dhakshin.dev@gmail.com`**
+   **`kothadhakshin123@gmail.com`**
 3. Include:
    - A clear description of the issue  
    - Steps to reproduce (if possible)  
