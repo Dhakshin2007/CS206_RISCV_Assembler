@@ -9,11 +9,11 @@ document.addEventListener('DOMContentLoaded', () => {
   runBtn.addEventListener('click', async () => {
     output.textContent = "Assembling... (please wait)\n";
     try {
-      fetch("https://cs206-riscv-assembler.onrender.com/assemble", {
-  method: "POST",
-  headers: { "Content-Type": "application/json" },
-  body: JSON.stringify({ code }),
-});
+      const res = await fetch('/assemble', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ code: codeArea.value })
+      });
       const text = await res.text();
       output.textContent = text;
     } catch (e) {
