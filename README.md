@@ -4,6 +4,12 @@ This repository contains the **RISC-V Assembler project** built for the
 **CS206 – Foundations of Computer Systems** course at **IIT Ropar**, guided by [T. V. Kalyan](https://sites.google.com/view/kalyantv).
 
 The project includes both **offline** and **web-based** RISC-V assemblers.
+# CS206 RISC-V Assembler
+
+Choose your version below:
+- [Offline Version (local branch)](https://github.com/Dhakshin2007/CS206_RISCV_Assembler/tree/local)
+- [Web Version (web branch)](https://github.com/Dhakshin2007/CS206_RISCV_Assembler/tree/web)
+
 
 ---
 
