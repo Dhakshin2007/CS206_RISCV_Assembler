@@ -16,7 +16,10 @@ Project_Main/
 ├── README.md
 └── ReadMe.txt
 ```
-
+---
+##Before running the file makesure that the ouput.mc file is cleared
+ 
+---
 ---
 
 ## 🧰 Tech Stack
@@ -30,7 +33,7 @@ Project_Main/
 2. Open a terminal inside the extracted folder (`Project_Main`).
 3. **Compile the assembler** using:
    ```bash
-   g++ assembler.cpp -o assembler
+   g++ assembler_required_format.cpp -o assembler
    ```
 4. Place your RISC-V assembly code in `input.asm`.
 5. **Run the assembler:**
