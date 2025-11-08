@@ -28,7 +28,7 @@ CS206_Project/
 ### For Offline Use:
 ```bash
 cd Project_Main
-g++ assembler.cpp -o assembler
+g++ assembler_req_format.cpp -o assembler
 ./assembler
 ```
 
