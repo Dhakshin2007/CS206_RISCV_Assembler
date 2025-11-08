@@ -1,0 +1,12 @@
+{
+  "name": "riscv-web-assembler",
+  "version": "1.0.0",
+  "description": "RISC-V assembler web interface",
+  "scripts": {
+    "build": "g++ -std=c++17 -O2 Assembler.cpp main.cpp -o assembler_runtime",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.0"
+  }
+}
