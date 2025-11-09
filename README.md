@@ -10,6 +10,7 @@ This assembler converts RISC-V assembly instructions into machine code.
 ```
 Project_Main/
 ├── Assembler.cpp
+├── Assembler_Req_Format.cpp
 ├── assembler.exe
 ├── input.asm
 ├── output.mc
